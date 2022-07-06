@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+body{
+    background-color: #FFFFFF;
 }
 /* header part start */
 .container{
@@ -37,7 +44,7 @@ p{
 }
 .donate{
     position: absolute;
-    top: 92%;
+  
     left: 40%;
     border-radius: 10px;
     text-decoration: none;
@@ -45,12 +52,14 @@ p{
     font-size: 25px;
     background-color: tomato;
 }
+.button{
+    top: 120%;
+}
 /* header part end */
 
 /* donate today part start */
 
 .container1 .ul{
-    
     width: 80%;
     position: absolute;
     right: 0%;
@@ -61,14 +70,19 @@ p{
 .ul a{
     height: 50px;
     padding: 10px 30px;
-
+    font-weight: bold;
+    color: rgb(41, 35, 35);
     text-align: center;
-    color: white;
     border-radius: 6px;
     text-decoration: none;
     font-size: 30px;
     margin-left: 20px;
-    background-color: rgb(200, 200, 219);
+    background-color: #FAFAFA;
+}
+.ul .select{
+    background-color: #FFEEEE;
+    color: #FF5959;
+    border: 1px solid red;
 }
 .input{
     width: 20%;
@@ -80,6 +94,70 @@ p{
     text-align: center;
     border-radius: 5px;
 }
-
-
 /* donate today part end */
+
+/* Our Donat Plan start */
+.container3{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: flex;
+}
+.div1, .div2, .div3{
+    width: 400px;
+    height: 500px;
+    background-color: aqua;
+    overflow: hidden;
+    margin: 20px 5px;
+    font-size: 16px;
+    box-shadow: 2px 2px 15px;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+h2{
+    padding-top: 30px;
+}
+div img{
+    margin-top: 20px;
+}
+.div1{
+    background-color: #EDF5F6;
+}
+.div2{
+    background-color: #FFEEEE;
+}
+.div3{
+    background-color: #FFF4D6;
+}
+/* Our Donat Plan end */
+
+/* container4 start  */
+.container4{
+    width: 100%;
+    margin-bottom: 0 auto;
+    display: flex;
+    position: relative;
+}
+.half-width{
+    width: 50%;
+    margin: 30px;
+    padding: 10px 40px;
+    height: 700px;
+}
+#id a{
+    position: absolute;
+    left: 300px;
+    top: 60%;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 25px;
+    background-color: tomato;
+}
+.half-width img{
+    width: 550px;
+    height: 500px;
+    border-radius: 10px;
+}
+/* container4 start  */

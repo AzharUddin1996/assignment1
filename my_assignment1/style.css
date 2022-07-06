@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header part start */
+.container{
+    width: 96%;
+    height: 100vh;
+    background-image: url(images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-part{
+    width: 800px;
+    height: 300px;
+    color: white;
+    position: relative;
+}
+h1{
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+p{
+    font-size: 32px;
+    text-align: center;
+}
+.container1{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+.donate{
+    position: absolute;
+    top: 92%;
+    left: 40%;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 25px;
+    background-color: tomato;
+}
+/* header part end */
+
+/* donate today part start */
+
+.container1 .ul{
+    
+    width: 80%;
+    position: absolute;
+    right: 0%;
+    margin: 20px;
+    margin-bottom: 300px;
+}
+
+.ul a{
+    height: 50px;
+    padding: 10px 30px;
+
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 20px;
+    background-color: rgb(200, 200, 219);
+}
+.input{
+    width: 20%;
+    margin: 0 auto;
+}
+.input input{
+    padding: 5px;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+/* donate today part end */

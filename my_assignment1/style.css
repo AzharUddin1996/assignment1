@@ -138,6 +138,7 @@ div img{
     margin-bottom: 0 auto;
     display: flex;
     position: relative;
+    
 }
 .half-width{
     width: 50%;
@@ -161,3 +162,17 @@ div img{
     border-radius: 10px;
 }
 /* container4 start  */
+/* extra experience start */
+ .container5{
+    width: 1500px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 10px solid yellowgreen;
+    border-radius: 10px;
+    background-color: #694242;
+
+
+ }
+/* extra experience end */
